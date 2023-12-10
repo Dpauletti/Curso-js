@@ -26,6 +26,7 @@ while (encendido) {
       productos.push(new Producto());
       break;
     case 2:
+      productos.splice(2,1)
       break;
     case 3:
       for (let producto of productos) {
